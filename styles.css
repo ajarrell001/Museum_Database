@@ -1,0 +1,91 @@
+/* Alyssa Jarrell
+CIS 244 Spring 2021
+Professor Laurence Liss
+Week 7: Museum Database Lab*/
+
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table, th, tr, td {
+    border: 1px solid rgb(5, 5, 5);
+    border-collapse: collapse;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+table{
+  margin: auto;
+  width: 600px;
+}
+
+
+input[type=submit], a {
+    background-color:  #a1b4a1;
+    color: black;
+    border: 1px solid black;
+    padding: 16px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+
+input[type=submit]:hover, a:hover {
+    background-color:  #a1b4a1;
+    color: black;
+    border: 2px solid black;
+    padding: 16px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  
+select {
+  background-color: #cacaca;
+  border: 1px solid black;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+width: 150px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#form {
+  /* max-width: 600px; */
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  width: 600px;
+}
+
+fieldset{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+.column1 {
+float: left;
+width: 65%;
+}
+
+.column2 {
+  float: left;
+  width: 35%;
+}
+
